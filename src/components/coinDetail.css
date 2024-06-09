@@ -1,0 +1,71 @@
+.coin-detail{
+    padding-left: 120px;
+    padding-top: 50px;
+}
+.time{
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.coin-image img{
+    margin-top: 60px;
+}
+
+.coin-name{
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 50px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.coin-price{
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.coin-profit{
+    margin-top: 10px;
+    margin-left: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    
+}
+
+.market-rank{
+    font-weight: bold;
+    font-size: 27px;
+    margin-top: 20px;
+    margin-left: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.coin-desc p{
+    margin-top: 15px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+.coin-desc {
+    width: 20rem;
+}
+.btn button{
+    height: 2rem;
+    background-color: rgb(32, 129, 32);
+    border: none;
+    width: 5rem;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+.coin-detail{
+    display: flex;
+    justify-content: space-evenly;
+}
+@media only screen and (max-width: 600px) {
+
+    .coin-detail{
+        display: flex;
+        flex-direction: column;
+        padding-left: 30px;
+    }
+}
